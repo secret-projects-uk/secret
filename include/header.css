@@ -1,1 +1,53 @@
 
+#Header {
+    position:fixed;
+    background: #007767; /* Colour */
+    width: 200%;
+    height: 17%;
+    margin: 2px;
+    padding: 2px;
+    left: -5%;
+    top: -4%;
+        font-family: 'Bree Serif', serif;
+}
+
+#Header a:visited {
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+
+#TopText:hover {
+    color: #FFFFFF;
+    transition: 0.1s;
+}
+
+.About {
+    position: fixed;
+    font-size: 90%;
+    top: 3.5%;
+    right: 15%;
+}
+
+.Logo {
+    position: fixed; 
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2.5%;
+    height: 19%;
+}
+
+.Products {
+        position: fixed;
+    font-size: 90%;
+    top: 3.5%;
+    right: 6%;
+}
+
+.Name {
+    position: fixed;
+    font-size: 110%;
+    top: 3.2%;
+    left: 6%;
+}
