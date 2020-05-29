@@ -1,10 +1,10 @@
 <?php ?>
 
-<html>
+<html class="Noscrolly" >
 
     <link rel="stylesheet" type="text/css" href="footer.css">
     
-    <footer id="Footer" class="Noscrolly" >
+    <footer id="Footer"  >
     
         <h4 >Hello</h4>
         
