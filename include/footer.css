@@ -1,19 +1,19 @@
 footer {
-    
+    overflow: hidden;
     padding: 50%;
     
 }
 
 .Noscrolly {
     
-    overflow-y: hidden;
-    width: 100%;
+    overflow: hidden;
     
 }
 
 #Footer {
     position:absolute;
     background: #007767; /* Colour */
+    overflow: hidden;
     width: 105%;
     height: 27%;
     margin: 2px;
