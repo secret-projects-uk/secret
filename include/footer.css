@@ -1,11 +1,24 @@
+footer {
+    
+    padding: 50%;
+    
+}
+
+.Noscrolly {
+    
+    overflow-y: hidden;
+    width: 100%;
+    
+}
+
 #Footer {
     position:absolute;
     background: #007767; /* Colour */
-    width: 200%;
-    height: 30%;
+    width: 105%;
+    height: 27%;
     margin: 2px;
     padding: 2px;
-    left: -5%;
-    bottom: -4%;
+    left: -4%;
+    margin-top: 50%;
     font-family: 'Bree Serif', serif;
 }
