@@ -9,6 +9,7 @@
     left: -5%;
     top: -4%;
         font-family: 'Bree Serif', serif;
+    z-index: 10;
 }
 
 #Header a:visited {
