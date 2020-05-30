@@ -12,21 +12,21 @@
 }
 
 #Header a:visited {
-    color: black;
+    color: black; /* Colour */
     outline: none;
     text-decoration: none;
 }
 
 
 #TopText:hover {
-    color: #FFFFFF;
+    color: #FFFFFF; /* Colour */
     transition: 0.1s;
 }
 
 .About {
     position: fixed;
     font-size: 90%;
-    top: 3.5%;
+    top: 5%;
     right: 15%;
 }
 
@@ -41,12 +41,13 @@
 .Products {
         position: fixed;
     font-size: 90%;
-    top: 3.5%;
+    top: 5%;
     right: 6%;
 }
 
 .Name {
     position: fixed;
+        color: black; /* Colour */
     font-size: 110%;
     top: 3.2%;
     left: 6%;
