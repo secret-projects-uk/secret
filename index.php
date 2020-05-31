@@ -11,15 +11,43 @@ include('include/header.php');
     <link rel="stylesheet" type="text/css" href="include/footer.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     
+                   
+    
+    <form id="TabAnim" class="TabArea">
+    <div class="ProductTab">
+             <h3>Mitrek</h3>
+            <h3>Aperture-Sciences</h3>
+        </div>
+    </form>
+    
         <header id="Header" >
-        
         <a href="#Header" style="text-decoration:none"><h3 style="text-decoration:none" id="TopText" class="Name" >BP TEAM</h3></a>
         <h3 id="TopText" class="About">ABOUT US</h3>
-        <h3 id="TopText" class="Products" >PRODUCTS</h3>
+        <h3 id="TopText" onclick="openTab();" class="Products" >PRODUCTS</h3>
         <a href="#Header"><img class="Logo" src="https://bpteam.xyz/assets/bplogo.png" ></a>
+
 </header>
     
+    <script>
     
+        var Tab = document.getElementById("TabAnim");
+        Tab.style.top = "-170px";
+        
+        function openTab() {
+            
+            if (Tab.style.top === "-170px"){
+                
+                Tab.style.top = "10%";
+                
+            } else {
+                
+                Tab.style.top = "-170px";
+                
+            }
+            
+        }
+        
+    </script>
     
     <body>
         

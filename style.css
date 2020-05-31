@@ -1,25 +1,30 @@
+body {
+    font-family: 'Bree Serif', serif;
+}
+
 .CodingPic {
     
-    margin-left: -30%;
-    margin-top: 15%;
+    margin-left: -5%;
+    margin-top: 10%;
     width: 110%;
     
 }
 
 .TextBox1 {
     
-    margin-top: 20%;
-    right: 6%;
+    margin-top: 14%;
+    right: 3.5%;
     background-color: #f4f4f4;
     position: absolute;
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    padding-right: 4%;
-    padding-left: 4%;
-    width: 35%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    width: 18.5%;
     font-size: 100%;
     z-index: 1;
         display:inline-block;
+    opacity: 80%;
     
 }
 
