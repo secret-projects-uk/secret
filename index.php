@@ -12,7 +12,7 @@ include('include/header.php');
     <link rel="stylesheet" type="text/css" href="style.css">
     
                    
-    
+    <div class="Shadow" >
     <form id="TabAnim" class="TabArea">
     <div class="ProductTab">
              <h3>Mitrek</h3>
@@ -27,11 +27,12 @@ include('include/header.php');
         <a href="#Header"><img class="Logo" src="https://bpteam.xyz/assets/bplogo.png" ></a>
 
 </header>
-    
+    </div>
     <script>
     
         var Tab = document.getElementById("TabAnim");
         Tab.style.top = "-170px";
+        
         
         function openTab() {
             

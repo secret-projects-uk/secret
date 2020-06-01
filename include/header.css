@@ -10,6 +10,7 @@
     top: -4%;
         font-family: 'Bree Serif', serif;
             z-index: 10;
+        box-shadow: 0px -5px 15px #000;
 }
 
 
@@ -69,15 +70,27 @@ text-align: center;
 
 #TabAnim
 {
- transition: 0.90s;   
+ transition: 0.75s;   
 }
 
 .ProductTab {
     
     position: fixed;
-    margin: 5px #40babc;
-  border: 5x solid #40babc;
+  box-shadow: 0px 0px 25px #000;
     padding: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
   background: #007767;
   overflow: hidden;
+}
+
+.Shadow {
+    
+    
+}
+
+.Product1 {
+    
+    
+    
 }
