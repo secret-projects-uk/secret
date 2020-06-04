@@ -1,8 +1,8 @@
+/* Main Body/Index */
 body {
     font-family: 'Bree Serif', serif;
     font-size: 95%;
 }
-
 .CodingPic {
     
     position: static;
@@ -11,11 +11,6 @@ body {
     width: 110%;
     
 }
-
-#Top {
-    
-}
-
 .TextBox1 {
     
     top: 24.5%;
@@ -31,17 +26,28 @@ body {
     opacity: 80%;
     
 }
-
 .Title4Box {
-    
     text-align: center;
-    
 }
-
 .Text4Box {
     
     align-content: center;
     text-align: justify;
   text-justify: inter-word;
     text-align-last: center;
+}
+/* About Page */
+.Noscroll {
+    overflow: hidden;
+}
+
+#Socials {
+    
+    margin-top: -1%;
+    margin-left: -1%;
+    height: 104%;
+    width: 25%;
+    background: #007767;
+    border-right: 5px solid #00d6b9;
+    
 }

@@ -12,11 +12,11 @@ footer {
     position:absolute;
     background: #007767; /* Colour */
     overflow: hidden;
-    width: 105%;
+    width: 100.3%;
     height: 27%;
     margin: 2px;
     padding: 2px;
-    left: -4%;
+    left: -0.1%;
     margin-top: 25%;
     font-family: 'Bree Serif', serif;
 }
@@ -24,7 +24,7 @@ footer {
 .DiscordLogo {
     
     position: absolute;
-   width: 3.5%;
+   width: 3%;
    bottom: 50%;
    left:40%;
     transform: translateX(-50%);
@@ -34,7 +34,7 @@ footer {
 .YoutubeLogo {
     
     position: absolute;
-   width: 3.5%;
+   width: 3%;
    bottom: 50%;
    left:45%;
     transform: translateX(-50%);
@@ -44,7 +44,7 @@ footer {
 .TwitterLogo {
     
         position: absolute;
-   width: 3.5%;
+   width: 3%;
    bottom: 50%;
    left:50%;
     transform: translateX(-50%);
@@ -54,7 +54,7 @@ footer {
 .TwitchLogo {
     
         position: absolute;
-   width: 3.5%;
+   width: 3%;
    bottom: 50%;
    left:55%;
     transform: translateX(-50%);
@@ -64,7 +64,7 @@ footer {
 .GithubLogo {
     
         position: absolute;
-   width: 3.5%;
+   width: 3%;
    bottom: 50%;
    left:60%;
     transform: translateX(-50%);
