@@ -8,8 +8,7 @@ body {
     position: static;
     margin-left: -5%;
     margin-top: 10%;
-    width: 110%;
-    
+    width: 110%; 
 }
 .TextBox1 {
     
@@ -40,14 +39,58 @@ body {
 .Noscroll {
     overflow: hidden;
 }
-
 #Socials {
     
     margin-top: -1%;
     margin-left: -1%;
     height: 104%;
     width: 25%;
-    background: #007767;
+    background: #008a77;
     border-right: 5px solid #00d6b9;
+}
+.ALogo {
     
+    position: relative;
+    top: 10%;
+    width: 42.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.AName {
+    position:relative;
+    top: 13%;
+    left: 50%;
+    font-size-adjust: auto;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.Email {
+    position:relative;
+    top: 16%;
+    left: 50%;
+    font-size-adjust: auto;
+    transform: translateX(-50%);
+    text-align: center;
+}
+/* Tests */
+#Twitch {
+    position:relative;
+    width: 10%;
+    top: 15%;
+}
+.TwitchT {
+    position:relative;
+    left: 50%;
+    font-size-adjust: auto;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.TwitchLogo {
+    position:relative;
+    width: 6%;
+    top: 15%;
+    left: 41%;
+    font-size-adjust: auto;
+    transform: translateX(-50%);
+    float:left;
 }
