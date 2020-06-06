@@ -3,15 +3,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <head>
+    
+        <script>
+        
+            var Twitch = document.getElementById("ATwitch");
+            var Twitter = document.getElementById("ATwitter");
+            var Discord = document.getElementById("ADiscord");
+            var Github = document.getElementById("AGithub");
+            var Youtube = document.getElementById("AYoutube");
+            
+            function ATwitch() {
+                
+                Twitch.style.color = "white";
+            }
+            
+        </script>
+        
+    </head>
     
     <body>
     
-        <div id="Socials" >
+        <div id="ASocials" >
             
             <a href="index.html#Header" ><img src="assets/bplogo.png" class="ALogo" ></a>
             <h1 class="AName" >BP Team</h1>
-            <h3 class="Email" >bp@bpteam.xyz</h3>
-            <a id="Twitch" ><img class="TwitchLogo" src="assets/circled_Twitchdark.png" ><h3 class="TwitchT" > Twitch</h3></a>
+            <h3 class="AEmail" >bp@bpteam.xyz</h3>
+            
+            <div id="ATwitch" class="flex-container" ><a onmouseover="ATwitch();" ><img class="ATwitchLogo" src="assets/circled_Twitchdark.png" ><h3 class="AText" > Twitch</h3></a></div>
+            
+            <div id="ATwitter" class="flex-container" ><a><img class="ATwitterLogo" src="assets/iconfinder_Circled_Twitter_svg_5279123dark.png" ><h3 class="AText">Twitter</h3></a></div>
+            
+            <div id="ADiscord" class="flex-container" ><a><img class="ADicordLogo" src="assets/circled_Discorddark.png" ><h3 class="AText" >Discord</h3></a></div>
+            
+            <div id="AGithub" class="flex-container" ><a><img class="AGithubLogo" src="assets/circled_Githubdark.png" ><h3 class="AText" >Github</h3></a></div>
+            
+            <div id="AYoutube" class="flex-container" ><a><img class="AYoutubeLogo" src="assets/iconfinder_Circled_Youtube_svg_5279120dark.png" ><h3 class="AText" >Youtube</h3></a></div>
+            
         </div>
         
     </body>

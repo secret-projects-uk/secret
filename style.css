@@ -39,7 +39,7 @@ body {
 .Noscroll {
     overflow: hidden;
 }
-#Socials {
+#ASocials {
     
     margin-top: -1%;
     margin-left: -1%;
@@ -64,7 +64,7 @@ body {
     transform: translateX(-50%);
     text-align: center;
 }
-.Email {
+.AEmail {
     position:relative;
     top: 16%;
     left: 50%;
@@ -73,24 +73,81 @@ body {
     text-align: center;
 }
 /* Tests */
-#Twitch {
-    position:relative;
-    width: 10%;
-    top: 15%;
+.flex-container {
+    display:flex;
+    flex-direction: row;
 }
-.TwitchT {
-    position:relative;
-    left: 50%;
+.AText {
     font-size-adjust: auto;
-    transform: translateX(-50%);
     text-align: center;
 }
-.TwitchLogo {
+/* Twitch */
+#ATwitch {
     position:relative;
-    width: 6%;
+    width: 11%;
     top: 15%;
-    left: 41%;
-    font-size-adjust: auto;
+    left: 50%;
     transform: translateX(-50%);
-    float:left;
+}
+.ATwitchLogo {
+    position: relative;
+    width: 40%;
+    left: -60%;
+    top: 50%;
+    font-size-adjust: auto;
+}
+/* Twitter */
+#ATwitter {
+    position: relative;
+    width: 11%;
+    top: 11%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ATwitterLogo {
+    position: relative;
+    width: 36%;
+    left: -55%;
+    top: 50%;
+}
+/* Discord */
+#ADiscord {
+    position: relative;
+    width: 11%;
+    top: 7.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ADicordLogo {
+    position: relative;
+    width: 36%;
+    left: -55%;
+    top: 50%;
+}
+/* Github */
+#AGithub {
+    position: relative;
+    width: 11%;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.AGithubLogo {
+    position: relative;
+    width: 36%;
+    left: -55%;
+    top: 50%;
+}
+/* Youtube */
+#AYoutube {
+    position: relative;
+    width: 11%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.AYoutubeLogo {
+    position:relative;
+    width: 36%;
+    left: -50%;
+    top: 50%;
 }
