@@ -14,7 +14,7 @@
 }
 
 
-#Header a:visited {
+#Header a {
     color: black; /* Colour */
     outline: none;
     text-decoration: none;

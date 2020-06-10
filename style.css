@@ -48,6 +48,10 @@ body {
     background: #008a77;
     border-right: 5px solid #00d6b9;
 }
+#ASocials a {
+        text-decoration: none;
+    color: black;
+}
 .ALogo {
     
     position: relative;
@@ -150,4 +154,22 @@ body {
     width: 36%;
     left: -50%;
     top: 50%;
+}
+/* Members */
+.flex-containera {
+    display:flex;
+    flex-direction: row;
+}
+#AMembers {
+    position: absolute;
+    right: 40%;
+    top: 10%;
+    
+}
+.APic {
+    width: 55%;   
+}
+.APolt {
+    background: #00a68f;
+    width: 200%;
 }
