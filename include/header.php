@@ -29,8 +29,8 @@
     
     <header id="Header" >
         
-        <div id="ProductTab" >
-             <h3>Mitrek</h3>
+        <div id="ProductTab">
+            <h3 onclick="href='https://www.curseforge.com/minecraft/mc-mods/mitrek'" >Mitrek</h3>
             <h3>Aperture-Sciences</h3>
     </div>
         

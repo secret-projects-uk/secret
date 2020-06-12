@@ -57,23 +57,17 @@ body {
     position: relative;
     top: 10%;
     width: 42.5%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 .AName {
     position:relative;
     top: 13%;
-    left: 50%;
     font-size-adjust: auto;
-    transform: translateX(-50%);
     text-align: center;
 }
 .AEmail {
     position:relative;
     top: 16%;
-    left: 50%;
     font-size-adjust: auto;
-    transform: translateX(-50%);
     text-align: center;
 }
 /* Tests */
@@ -85,28 +79,29 @@ body {
     font-size-adjust: auto;
     text-align: center;
 }
+.Center {
+    left: 50%;
+    transform: translateX(-50%);
+}
 /* Twitch */
 #ATwitch {
     position:relative;
     width: 11%;
     top: 15%;
-    left: 50%;
-    transform: translateX(-50%);
+
 }
 .ATwitchLogo {
     position: relative;
     width: 40%;
     left: -60%;
     top: 50%;
-    font-size-adjust: auto;
 }
 /* Twitter */
 #ATwitter {
     position: relative;
     width: 11%;
     top: 11%;
-    left: 50%;
-    transform: translateX(-50%);
+
 }
 .ATwitterLogo {
     position: relative;
@@ -119,8 +114,7 @@ body {
     position: relative;
     width: 11%;
     top: 7.5%;
-    left: 50%;
-    transform: translateX(-50%);
+
 }
 .ADicordLogo {
     position: relative;
@@ -133,8 +127,7 @@ body {
     position: relative;
     width: 11%;
     top: 4%;
-    left: 50%;
-    transform: translateX(-50%);
+
 }
 .AGithubLogo {
     position: relative;
@@ -146,8 +139,7 @@ body {
 #AYoutube {
     position: relative;
     width: 11%;
-    left: 50%;
-    transform: translateX(-50%);
+
 }
 .AYoutubeLogo {
     position:relative;
@@ -156,20 +148,29 @@ body {
     top: 50%;
 }
 /* Members */
-.flex-containera {
-    display:flex;
-    flex-direction: row;
-}
 #AMembers {
     position: absolute;
-    right: 40%;
-    top: 10%;
+    right: 35%;
+    top: 8.5%;
     
 }
 .APic {
-    width: 55%;   
+    width: 55%;
+    clip-path: circle(33px at center);
+    margin-top: 25%;
+    margin-bottom: 25%;
+
 }
-.APolt {
+.Expand {
+    margin-left: 85%;
+    margin-top: -5%;
+}
+.Expand:hover {
+    color: white;
+}
+.AMember {
     background: #00a68f;
-    width: 200%;
+    width: 175%;
+   box-shadow: 12px 12px 5px #00d6b9;
+    margin-bottom: 1.5%;
 }
