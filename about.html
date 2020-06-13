@@ -1,22 +1,19 @@
 <html  class="Noscroll" >
 
+    <head>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-
-    <head>
-    
-        <script>
-        
-            var Twitch = document.getElementById("ATwitch");
-            var Twitter = document.getElementById("ATwitter");
-            var Discord = document.getElementById("ADiscord");
-            var Github = document.getElementById("AGithub");
-            var Youtube = document.getElementById("AYoutube");
-            
-            
-        </script>
-        
     </head>
+    
+    <script>
+    
+        var UK = document.getElementByClassName("AMember");
+        function expandBio() {
+            
+            UK.style.display = "none";
+        }
+        
+    </script>
     
     <body>
     
@@ -40,46 +37,46 @@
         
         <div id="AMembers" class="flex-containera" >
         
-            <div class="AMember" >
+            <div id="Uk" class="AMember" >
                 <div class="flex-container" >
                 <div><img class="APic" src="assets/uk.png"></div>
                 <div><h3>UKMinecrafted</h3>
                     <h4>Founder, Main Mod Developer, Web Developer</h4></div></div>
-                <h5 class="Expand" >Expand</h5>
+                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
                 
             </div>
             
-            <div class="AMember" >
+            <div class="AMember tem" >
                 <div class="flex-container" >
                 <div><img class="APic" src="assets/tem.png"></div>
                 <div><h3>TardisTem</h3>
                     <h4>Modeler</h4></div></div>
-                <h5 class="Expand" >Expand</h5>
+                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
                 
             </div>
             
             <div class="AMember" >
-                <div class="flex-container" >
+                <div class="flex-container beren" >
                 <div><img class="APic" src="assets/beren.png"></div>
                 <div><h3>Berenvobaggins</h3>
                     <h4>Modeler, Mod Developer</h4></div></div>
-                <h5 class="Expand" >Expand</h5>
+                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
             </div>
             
             <div class="AMember" >
-                <div class="flex-container" >
+                <div class="flex-container polt" >
                 <div><img class="APic" src="assets/polt.png"></div>
                 <div><h3>Poltergeist</h3>
                     <h4>Web Developer, Video Editor</h4></div></div>
-                <h5 class="Expand" >Expand</h5>
+                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
             </div>
             
             <div class="AMember" >
-                <div class="flex-container" >
+                <div class="flex-container ender" >
                 <div><img class="APic" src="assets/ender.png"></div>
                 <div><h3>Enderman842</h3>
                     <h4>Modeler</h4></div></div>
-                <h5 class="Expand" >Expand</h5>
+                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
             </div>
             
         </div>
