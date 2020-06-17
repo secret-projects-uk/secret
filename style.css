@@ -44,9 +44,10 @@ body {
     margin-top: -1%;
     margin-left: -1%;
     height: 104%;
-    width: 25%;
+    width: 23%;
     background: #008a77;
     border-right: 5px solid #00d6b9;
+    position: fixed;
 }
 #ASocials a {
         text-decoration: none;
@@ -151,29 +152,47 @@ body {
 #AMembers {
     position: absolute;
     right: 35%;
-    top: 8.5%;
+    top: 7%;
     
 }
 .APic {
-    width: 55%;
-    clip-path: circle(33px at center);
-    margin-top: 20%;
-    margin-bottom: 30%;
+    width: 45%;
+    clip-path: circle(28px at center);
+    margin-top: 14%;
+    margin-bottom: 36%;
 
 }
 .Expand {
     margin-left: 85%;
-    margin-top: -5%;
+    margin-top: -5.65%;
 }
 .Expand:hover {
     color: white;
+    transition: 0.25s;
 }
-.Expand:right {
-    color: aqua;
+#Uk {
+    transition: 0.65s;
+    padding-bottom: 0%;
+}
+#Tem {
+    transition: 0.65s;
+    padding-bottom: 0%;
+}
+#Beren {
+    transition: 0.65s;
+    padding-bottom: 0%;
+}
+#Polt {
+    transition: 0.65s;
+    padding-bottom: 0%;
+}
+#Ender {
+    transition: 0.65s;
+    padding-bottom: 0%;
 }
 .AMember {
     background: #00a68f;
     width: 175%;
    box-shadow: 12px 12px 5px #00d6b9;
-    margin-bottom: 1.5%;
+    margin-bottom: 5%;
 }

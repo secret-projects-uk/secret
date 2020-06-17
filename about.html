@@ -1,4 +1,4 @@
-<html  class="Noscroll" >
+<html  >
 
     <head>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
@@ -6,18 +6,49 @@
     </head>
     
     <script>
+        
+        document.getElementById("AUkSocial").style.display = "none";
+        document.getElementById("Tem").style.margingTop = "0%";
+        document.getElementById("Beren").style.margingTop = "0%";
+        document.getElementById("Polt").style.margingTop = "0%";
+        document.getElementById("Ender").style.margingTop = "0%";
+        
+function expandUk() {
     
-        var UK = document.getElementByClassName("AMember");
-        function expandBio() {
-            
-            UK.style.display = "none";
-        }
+    if (document.getElementById("Uk").style.marginTop === "0%" )  
+    { document.getElementById("Uk").style.marginTop = "20%"; } 
+    else { document.getElementById("Uk").style.marginTop = "0%";} }
+        
+        
+function expandTem() {
+    
+	    if (document.getElementById("Tem").style.marginTop === "0%" ) 
+    { document.getElementById("Tem").style.marginTop = "20%"; } 
+    else { document.getElementById("Tem").style.marginTop = "0%";} }
+
+function expandBeren() {
+    
+	    if (document.getElementById("Beren").style.marginTop === "0%" ) 
+    { document.getElementById("Beren").style.marginTop = "20%"; } 
+    else { document.getElementById("Beren").style.marginTop = "0%";} }
+        
+function expandPolt() {
+    
+    if (document.getElementById("Polt").style.marginTop === "0%" )   
+    { document.getElementById("Polt").style.marginTop = "20%"; } 
+    else { document.getElementById("Polt").style.marginTop = "0%";} }
+        
+function expandEnder() {
+    
+    if (document.getElementById("Ender").style.marginTop === "0%" ) 
+    { document.getElementById("Ender").style.marginTop = "20%"; } 
+    else { document.getElementById("Ender").style.marginTop = "0%";} }
         
     </script>
     
     <body>
     
-        <div id="ASocials" >
+        <div id="ASocials" class="NoScroll" >
             
             <a href="index.html#Header" ><img src="assets/bplogo.png" class="ALogo Center" ></a>
             <h1 class="AName Center" >BP Team</h1>
@@ -37,46 +68,47 @@
         
         <div id="AMembers" class="flex-containera" >
         
-            <div id="Uk" class="AMember" >
+            <div class="AMember" >
                 <div class="flex-container" >
                 <div><img class="APic" src="assets/uk.png"></div>
                 <div><h3>UKMinecrafted</h3>
                     <h4>Founder, Main Mod Developer, Web Developer</h4></div></div>
-                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
+                <div id="AUkSocial"><h4>Socials:</h4>       <h5>Twitter</h5></div>
+                <div id="Uk" ><h5 onclick="expandUk();" class="Expand" >Expand</h5></div>
                 
             </div>
             
-            <div class="AMember tem" >
+            <div class="AMember" >
                 <div class="flex-container" >
                 <div><img class="APic" src="assets/tem.png"></div>
                 <div><h3>TardisTem</h3>
                     <h4>Modeler</h4></div></div>
-                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
+                <div id="Tem" ><h5 onclick="expandTem();" class="Expand" >Expand</h5></div>
                 
             </div>
             
             <div class="AMember" >
-                <div class="flex-container beren" >
+                <div class="flex-container" >
                 <div><img class="APic" src="assets/beren.png"></div>
                 <div><h3>Berenvobaggins</h3>
                     <h4>Modeler, Mod Developer</h4></div></div>
-                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
+                <div id="Beren" ><h5 onclick="expandBeren();" class="Expand" >Expand</h5></div>
             </div>
             
-            <div class="AMember" >
-                <div class="flex-container polt" >
+            <div  class="AMember" >
+                <div class="flex-container" >
                 <div><img class="APic" src="assets/polt.png"></div>
                 <div><h3>Poltergeist</h3>
                     <h4>Web Developer, Video Editor</h4></div></div>
-                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
+                <div id="Polt" ><h5 onclick="expandPolt();" class="Expand" >Expand</h5></div>
             </div>
             
-            <div class="AMember" >
-                <div class="flex-container ender" >
+            <div  class="AMember" >
+                <div class="flex-container" >
                 <div><img class="APic" src="assets/ender.png"></div>
                 <div><h3>Enderman842</h3>
                     <h4>Modeler</h4></div></div>
-                <h5 onclick="expandBio();" class="Expand" >Expand</h5>
+               <div id="Ender" ><h5 onclick="expandEnder();" class="Expand" >Expand</h5></div>
             </div>
             
         </div>
