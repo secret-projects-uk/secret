@@ -1,3 +1,25 @@
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    font-size: 0%;
+  }
+
+  100% {
+    font-size: 100%;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    font-size: 100%;
+  }
+
+  100% {
+    font-size: 0%;
+  }
+}
+
 /* Main Body/Index */
 body {
     font-family: 'Bree Serif', serif;
@@ -151,6 +173,7 @@ body {
 /* Members */
 #AMembers {
     position: absolute;
+    transition: 0.80s;
     right: 35%;
     top: 7%;
     
@@ -173,6 +196,7 @@ body {
 #Uk {
     transition: 0.65s;
     padding-bottom: 0%;
+    margin-top: 0%;
 }
 #Tem {
     transition: 0.65s;
@@ -195,4 +219,19 @@ body {
     width: 175%;
    box-shadow: 12px 12px 5px #00d6b9;
     margin-bottom: 5%;
+}
+#UkSocial {
+    
+    margin-left: 15.5%;
+    margin-top: -2%;
+    display: none;
+    
+}
+.SocialFadeIn {
+    animation: fadeIn;
+    animation-duration: 0.75s;
+}
+.SocialFadeOut {
+    animation: fadeOut;
+    animation-duration: 0.75s;
 }

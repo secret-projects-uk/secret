@@ -7,7 +7,8 @@
     
     <script>
         
-        document.getElementById("AUkSocial").style.display = "none";
+        document.getElementById("UkSocial").style.display= "inline-block";
+        document.getElementById("Uk").style.margingTop = "0%";
         document.getElementById("Tem").style.margingTop = "0%";
         document.getElementById("Beren").style.margingTop = "0%";
         document.getElementById("Polt").style.margingTop = "0%";
@@ -15,9 +16,18 @@
         
 function expandUk() {
     
-    if (document.getElementById("Uk").style.marginTop === "0%" )  
-    { document.getElementById("Uk").style.marginTop = "20%"; } 
-    else { document.getElementById("Uk").style.marginTop = "0%";} }
+    if (document.getElementById("Uk").style.marginTop === "0%" ) 
+        
+    {   document.getElementById("Uk").style.marginTop = "5%";
+        document.getElementById("UkSocial").className = "SocialFadeIn";
+        document.getElementById("UkSocial").style.display= "inline-block"; }
+        
+    
+    else {  document.getElementById("UkSocial").className = "SocialFadeOut";
+            setTimeout(() => {document.getElementById("Uk").style.marginTop = "0%";
+                document.getElementById("UkSocial").style.display= "none";
+                             }, 375);
+         } }
         
         
 function expandTem() {
@@ -73,7 +83,7 @@ function expandEnder() {
                 <div><img class="APic" src="assets/uk.png"></div>
                 <div><h3>UKMinecrafted</h3>
                     <h4>Founder, Main Mod Developer, Web Developer</h4></div></div>
-                <div id="AUkSocial"><h4>Socials:</h4>       <h5>Twitter</h5></div>
+                <div id="UkSocial"><h4>Socials:</h4>       <h5>Twitter</h5></div>
                 <div id="Uk" ><h5 onclick="expandUk();" class="Expand" >Expand</h5></div>
                 
             </div>
