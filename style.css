@@ -178,6 +178,10 @@ body {
     top: 7%;
     
 }
+#AMembers a {
+    text-decoration: none;
+    color: black;
+}
 .APic {
     width: 45%;
     clip-path: circle(28px at center);
@@ -193,6 +197,10 @@ body {
     color: white;
     transition: 0.25s;
 }
+.SText:hover {
+    color: white;
+    transition: 0.25s;
+}
 #Uk {
     transition: 0.65s;
     padding-bottom: 0%;
@@ -201,18 +209,22 @@ body {
 #Tem {
     transition: 0.65s;
     padding-bottom: 0%;
+    margin-top: 0%;
 }
 #Beren {
     transition: 0.65s;
     padding-bottom: 0%;
+    margin-top: 0%;
 }
 #Polt {
     transition: 0.65s;
     padding-bottom: 0%;
+    margin-top: 0%;
 }
 #Ender {
     transition: 0.65s;
     padding-bottom: 0%;
+    margin-top: 0%;
 }
 .AMember {
     background: #00a68f;
@@ -227,11 +239,39 @@ body {
     display: none;
     
 }
+#TemSocial {
+    
+    margin-left: 15.5%;
+    margin-top: -2%;
+    display: none;
+    
+}
+#BerenSocial {
+    
+    margin-left: 15.5%;
+    margin-top: -2%;
+    display: none;
+    
+}
+#PoltSocial {
+    
+    margin-left: 15.5%;
+    margin-top: -2%;
+    display: none;
+    
+}
+#EnderSocial {
+    
+    margin-left: 15.5%;
+    margin-top: -2%;
+    display: none;
+    
+}
 .SocialFadeIn {
     animation: fadeIn;
-    animation-duration: 0.75s;
+    animation-duration: 0.65s;
 }
 .SocialFadeOut {
     animation: fadeOut;
-    animation-duration: 0.75s;
+    animation-duration: 0.65s;
 }

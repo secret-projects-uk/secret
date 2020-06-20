@@ -6,17 +6,10 @@
     </head>
     
     <script>
-        
-        document.getElementById("UkSocial").style.display= "inline-block";
-        document.getElementById("Uk").style.margingTop = "0%";
-        document.getElementById("Tem").style.margingTop = "0%";
-        document.getElementById("Beren").style.margingTop = "0%";
-        document.getElementById("Polt").style.margingTop = "0%";
-        document.getElementById("Ender").style.margingTop = "0%";
-        
+              
 function expandUk() {
     
-    if (document.getElementById("Uk").style.marginTop === "0%" ) 
+    if (document.getElementById("Uk").style.marginTop < "5%" ) 
         
     {   document.getElementById("Uk").style.marginTop = "5%";
         document.getElementById("UkSocial").className = "SocialFadeIn";
@@ -24,17 +17,24 @@ function expandUk() {
         
     
     else {  document.getElementById("UkSocial").className = "SocialFadeOut";
-            setTimeout(() => {document.getElementById("Uk").style.marginTop = "0%";
-                document.getElementById("UkSocial").style.display= "none";
-                             }, 375);
+            setTimeout(() => {document.getElementById("Uk").style.marginTop = "0%";}, 335 );
+            setTimeout( () => {document.getElementById("UkSocial").style.display= "none";}, 335 );
          } }
         
         
 function expandTem() {
     
-	    if (document.getElementById("Tem").style.marginTop === "0%" ) 
-    { document.getElementById("Tem").style.marginTop = "20%"; } 
-    else { document.getElementById("Tem").style.marginTop = "0%";} }
+	    if (document.getElementById("Tem").style.marginTop < "5%" ) 
+        
+        {   document.getElementById("Tem").style.marginTop = "5%";
+            document.getElementById("TemSocial").className = "SocialFadeIn";
+            document.getElementById("TemSocial").style.display= "inline-block"; }
+        
+    
+    else {  document.getElementById("TemSocial").className = "SocialFadeOut";
+            setTimeout(() => {document.getElementById("Tem").style.marginTop = "0%";}, 335 );
+            setTimeout( () => {document.getElementById("TemSocial").style.display= "none";}, 335 );
+         } }
 
 function expandBeren() {
     
@@ -50,9 +50,17 @@ function expandPolt() {
         
 function expandEnder() {
     
-    if (document.getElementById("Ender").style.marginTop === "0%" ) 
-    { document.getElementById("Ender").style.marginTop = "20%"; } 
-    else { document.getElementById("Ender").style.marginTop = "0%";} }
+    if (document.getElementById("Ender").style.marginTop < "5%" ) 
+        
+        {   document.getElementById("Ender").style.marginTop = "5%";
+            document.getElementById("EnderSocial").className = "SocialFadeIn";
+            document.getElementById("EnderSocial").style.display= "inline-block"; }
+        
+    
+    else {  document.getElementById("EnderSocial").className = "SocialFadeOut";
+            setTimeout(() => {document.getElementById("Ender").style.marginTop = "0%";}, 335 );
+            setTimeout( () => {document.getElementById("EnderSocial").style.display= "none";}, 335 );
+         } }
         
     </script>
     
@@ -78,21 +86,29 @@ function expandEnder() {
         
         <div id="AMembers" class="flex-containera" >
         
-            <div class="AMember" >
-                <div class="flex-container" >
-                <div><img class="APic" src="assets/uk.png"></div>
-                <div><h3>UKMinecrafted</h3>
-                    <h4>Founder, Main Mod Developer, Web Developer</h4></div></div>
-                <div id="UkSocial"><h4>Socials:</h4>       <h5>Twitter</h5></div>
-                <div id="Uk" ><h5 onclick="expandUk();" class="Expand" >Expand</h5></div>
-                
-            </div>
+<div class="AMember" >
+<div class="flex-container" >
+   <div><img class="APic" src="assets/uk.png"></div>
+   <div>
+      <h3>UKMinecrafted</h3>
+      <h4>Founder, Main Mod Developer, Web Developer</h4>
+   </div>
+</div>
+<div id="UkSocial">
+   <h4>Socials:</h4>
+    <a href="https://twitter.com/UKMinecrafted" ><h5 class="SText">Twitter</h5></a>
+    <a href="https://twitch.tv/UKMinecrafted" ><h5 class="SText">Twitch</h5></a>
+</div>
+<div id="Uk" >
+   <h5 onclick="expandUk();" class="Expand" >Expand</h5>
+    </div></div>
             
             <div class="AMember" >
                 <div class="flex-container" >
                 <div><img class="APic" src="assets/tem.png"></div>
                 <div><h3>TardisTem</h3>
                     <h4>Modeler</h4></div></div>
+                <div id="TemSocial" ><h4>Socials:</h4></div>
                 <div id="Tem" ><h5 onclick="expandTem();" class="Expand" >Expand</h5></div>
                 
             </div>
@@ -118,6 +134,12 @@ function expandEnder() {
                 <div><img class="APic" src="assets/ender.png"></div>
                 <div><h3>Enderman842</h3>
                     <h4>Modeler</h4></div></div>
+                <div id="EnderSocial"><h4>Socials:</h4>
+                <a href="https://twitter.com/enderman842" ><h5 class="SText" >Twitter</h5></a>
+                <a href="https://www.twitch.tv/enderman842" ><h5 class="SText" >Twitch</h5></a>
+                <a href="https://github.com/Enderman842" ><h5 class="SText" >Github</h5></a>
+                <a href="https://www.youtube.com/channel/UCPIgkbtrhRjEsN46XZSfUnA" ><h5 class="SText" >Youtube</h5></a>
+                </div>
                <div id="Ender" ><h5 onclick="expandEnder();" class="Expand" >Expand</h5></div>
             </div>
             
