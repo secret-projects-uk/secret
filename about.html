@@ -20,8 +20,7 @@ function expandUk() {
             setTimeout(() => {document.getElementById("Uk").style.marginTop = "0%";}, 335 );
             setTimeout( () => {document.getElementById("UkSocial").style.display= "none";}, 335 );
          } }
-        
-        
+           
 function expandTem() {
     
 	    if (document.getElementById("Tem").style.marginTop < "5%" ) 
@@ -38,15 +37,31 @@ function expandTem() {
 
 function expandBeren() {
     
-	    if (document.getElementById("Beren").style.marginTop === "0%" ) 
-    { document.getElementById("Beren").style.marginTop = "20%"; } 
-    else { document.getElementById("Beren").style.marginTop = "0%";} }
+	    if (document.getElementById("Beren").style.marginTop < "5%" ) 
+        
+        {   document.getElementById("Beren").style.marginTop = "5%";
+            document.getElementById("BerenSocial").className = "SocialFadeIn";
+            document.getElementById("BerenSocial").style.display= "inline-block"; }
+        
+    
+    else {  document.getElementById("BerenSocial").className = "SocialFadeOut";
+            setTimeout(() => {document.getElementById("Beren").style.marginTop = "0%";}, 335 );
+            setTimeout( () => {document.getElementById("BerenSocial").style.display= "none";}, 335 );
+         } }
         
 function expandPolt() {
     
-    if (document.getElementById("Polt").style.marginTop === "0%" )   
-    { document.getElementById("Polt").style.marginTop = "20%"; } 
-    else { document.getElementById("Polt").style.marginTop = "0%";} }
+    if (document.getElementById("Polt").style.marginTop < "5%" ) 
+        
+        {   document.getElementById("Polt").style.marginTop = "5%";
+            document.getElementById("PoltSocial").className = "SocialFadeIn";
+            document.getElementById("PoltSocial").style.display= "inline-block"; }
+        
+    
+    else {  document.getElementById("PoltSocial").className = "SocialFadeOut";
+            setTimeout(() => {document.getElementById("Polt").style.marginTop = "0%";}, 335 );
+            setTimeout( () => {document.getElementById("PoltSocial").style.display= "none";}, 335 );
+         } }
         
 function expandEnder() {
     
@@ -70,17 +85,31 @@ function expandEnder() {
             
             <a href="index.html#Header" ><img src="assets/bplogo.png" class="ALogo Center" ></a>
             <h1 class="AName Center" >BP Team</h1>
-            <h3 class="AEmail Center" >bp@bpteam.xyz</h3>
+            <a href="mailto:bp@bpteam.xyz" ><h3 class="AEmail Center" >bp@bpteam.xyz</h3></a>
             
-            <div id="ATwitch" class="flex-container Center" ><a href="https://twitch.tv/bp_team_" ><img class="ATwitchLogo" src="assets/circled_Twitchdark.png" ><h3 class="AText" > Twitch</h3></a></div>
+            <div class="flex-containers">
             
-            <div id="ATwitter" class="flex-container Center" ><a href="https://twitter.com/BP_Team_" ><img class="ATwitterLogo" src="assets/iconfinder_Circled_Twitter_svg_5279123dark.png" ><h3 class="AText">Twitter</h3></a></div>
-            
-            <div id="ADiscord" class="flex-container Center" ><a href="https://discord.gg/Zawfp6K" ><img class="ADicordLogo" src="assets/circled_Discorddark.png" ><h3 class="AText" >Discord</h3></a></div>
-            
-            <div id="AGithub" class="flex-container Center" ><a href="ttps://github.com/bpteammc" ><img class="AGithubLogo" src="assets/circled_Githubdark.png" ><h3 class="AText" >Github</h3></a></div>
-            
-            <div id="AYoutube" class="flex-container Center" ><a href="https://www.youtube.com/channel/UC4MeGgjN60Spcmz7G7Gf9pQ" ><img class="AYoutubeLogo" src="assets/iconfinder_Circled_Youtube_svg_5279120dark.png" ><h3 class="AText" >Youtube</h3></a></div>
+                <div id="SFirst">
+                 <a class="Center" href="https://twitch.tv/bp_team_" ><img class="SLogo" src="assets/circled_Twitchdark.png"> <h4 >Twitch</h4></a>
+                </div>
+                
+                <div id="SMore">
+                 <a class="Center" href="https://discord.gg/Zawfp6K" ><img class="SLogo" src="assets/circled_Discorddark.png"> <h4 >Discord</h4></a>
+                </div>
+                
+                <div id="SMore">
+                 <a class="Center" href="https://www.youtube.com/channel/UC4MeGgjN60Spcmz7G7Gf9pQ" ><img class="SLogo" src="assets/iconfinder_Circled_Youtube_svg_5279120dark.png"> <h4 >Youtube</h4></a>
+                </div>
+                
+                <div id="SMore">
+                 <a class="Center" href="https://www.twitter.com/BPTeam__" ><img class="SLogo" src="assets/iconfinder_Circled_Twitter_svg_5279123dark.png"> <h4 >Twitter</h4></a>
+                </div>
+                
+                <div id="SMore">
+                 <a class="Center" href="https://github.com/bpteammc" ><img class="SLogo" src="assets/circled_Githubdark.png"> <h4 >Github</h4></a>
+                </div>
+                
+            </div>
             
         </div>
         
@@ -98,6 +127,8 @@ function expandEnder() {
    <h4>Socials:</h4>
     <a href="https://twitter.com/UKMinecrafted" ><h5 class="SText">Twitter</h5></a>
     <a href="https://twitch.tv/UKMinecrafted" ><h5 class="SText">Twitch</h5></a>
+    <a href="https://github.com/ukminecrafted" ><h5 class="SText" >Github</h5></a>
+    <a https://youtube.com/c/onpurposegaming ><h5 class="SText">Youtube</h5></a>
 </div>
 <div id="Uk" >
    <h5 onclick="expandUk();" class="Expand" >Expand</h5>
@@ -118,6 +149,12 @@ function expandEnder() {
                 <div><img class="APic" src="assets/beren.png"></div>
                 <div><h3>Berenvobaggins</h3>
                     <h4>Modeler, Mod Developer</h4></div></div>
+                <div id="BerenSocial" ><h4>Socials:</h4>
+                        <a href="https://twitter.com/berenvonbaggins" ><h5 class="SText">Twitter</h5></a>
+                        <a href="https://twitch.tv/berenvonbaggings" ><h5 class="SText">Twitch</h5></a>
+                        <a href="https://github.com/berenvonbaggins" ><h5 class="SText">Github</h5></a>
+                        <a href="https://www.youtube.com/channel/UC2CYEzEqJygXwYpYD8bdwlA" ><h5 class="SText">Youtube</h5></a>
+                </div>
                 <div id="Beren" ><h5 onclick="expandBeren();" class="Expand" >Expand</h5></div>
             </div>
             
@@ -126,6 +163,13 @@ function expandEnder() {
                 <div><img class="APic" src="assets/polt.png"></div>
                 <div><h3>Poltergeist</h3>
                     <h4>Web Developer, Video Editor</h4></div></div>
+                <div id="PoltSocial" >
+                <h4>Socials:</h4>
+                    <a href="https://twitter.com/Poltergeistv2" ><h5 class="SText" >Twitter</h5></a>
+                    <a href="https://www.twitch.tv/poltergeist_v2" ><h5 class="SText" >Twitch</h5></a>
+                    <a href="https://github.com/TheDoctor6702" ><h5 class="SText" >Github</h5></a>
+                    <a href="https://www.youtube.com/channel/UCo-hESumncS3HuUNOgAO73g" ><h5 class="SText" >Youtube</h5></a>
+                </div>
                 <div id="Polt" ><h5 onclick="expandPolt();" class="Expand" >Expand</h5></div>
             </div>
             

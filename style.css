@@ -75,21 +75,25 @@ body {
         text-decoration: none;
     color: black;
 }
+#ASocials a:hover {
+    text-decoration: none;
+    color: white;
+}
 .ALogo {
     
     position: relative;
-    top: 10%;
-    width: 42.5%;
+    top: 7%;
+    width: 42%;
 }
 .AName {
     position:relative;
-    top: 13%;
+    top: 10%;
     font-size-adjust: auto;
     text-align: center;
 }
 .AEmail {
     position:relative;
-    top: 16%;
+    top: 11%;
     font-size-adjust: auto;
     text-align: center;
 }
@@ -98,78 +102,39 @@ body {
     display:flex;
     flex-direction: row;
 }
+.flex-containers {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    
+}
 .AText {
     font-size-adjust: auto;
     text-align: center;
+    align-content: center;
 }
 .Center {
     left: 50%;
     transform: translateX(-50%);
 }
-/* Twitch */
-#ATwitch {
-    position:relative;
-    width: 11%;
-    top: 15%;
+.SLogo {
+    width: 7%;
+    margin-bottom: -5%;
+    align-content: center;
+}
+/* Social Links */
 
+#SFirst {
+    
+    margin-top: 25%;
+    font-size: 120%;
 }
-.ATwitchLogo {
-    position: relative;
-    width: 40%;
-    left: -60%;
-    top: 50%;
+#SMore {
+    margin-top: -5%;
+    font-size: 120%;
 }
-/* Twitter */
-#ATwitter {
-    position: relative;
-    width: 11%;
-    top: 11%;
 
-}
-.ATwitterLogo {
-    position: relative;
-    width: 36%;
-    left: -55%;
-    top: 50%;
-}
-/* Discord */
-#ADiscord {
-    position: relative;
-    width: 11%;
-    top: 7.5%;
-
-}
-.ADicordLogo {
-    position: relative;
-    width: 36%;
-    left: -55%;
-    top: 50%;
-}
-/* Github */
-#AGithub {
-    position: relative;
-    width: 11%;
-    top: 4%;
-
-}
-.AGithubLogo {
-    position: relative;
-    width: 36%;
-    left: -55%;
-    top: 50%;
-}
-/* Youtube */
-#AYoutube {
-    position: relative;
-    width: 11%;
-
-}
-.AYoutubeLogo {
-    position:relative;
-    width: 36%;
-    left: -50%;
-    top: 50%;
-}
 /* Members */
 #AMembers {
     position: absolute;
@@ -185,6 +150,7 @@ body {
 .APic {
     width: 45%;
     clip-path: circle(28px at center);
+    margin-left: 20%;
     margin-top: 14%;
     margin-bottom: 36%;
 
