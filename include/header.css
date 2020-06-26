@@ -1,7 +1,7 @@
 
 #Header {
     position:fixed;
-    background: #007767; /* Colour */
+    background: #003a7d; /* Colour */
     width: 200%;
     height: 14%;
     margin: 2px;
@@ -11,19 +11,22 @@
         font-family: 'Bree Serif', serif;
             z-index: 10;
         box-shadow: 0px -5px 15px #000;
+    color: #8bc1ed;
 }
 
 
 #Header a {
-    color: black; /* Colour */
+    color: #8bc1ed; /* Colour */
     outline: none;
     text-decoration: none;
+    
 }
 
 
 #TopText:hover {
-    color: #FFFFFF; /* Colour */
+    color: #252525; /* Colour */
     transition: 0.1s;
+    text-shadow: 0px 0px 10px #8bc1ed;
 }
 
 .About {
@@ -37,8 +40,7 @@
     position: fixed; 
     left: 50%;
     transform: translateX(-50%);
-    top: 2.5%;
-    height: 17%;
+    height: 25%;
 }
 
 .Products {
@@ -50,7 +52,7 @@
 
 .Name {
     position: fixed;
-        color: black; /* Colour */
+        color: #8bc1ed; /* Colour */
     font-size: 110%;
     top: 3.2%;
     left: 6%;
@@ -80,15 +82,16 @@ text-align: center;
     padding: 2px;
     padding-left: 3px;
     padding-right: 3px;
-  background: #007767;
+  background: #003a7d;
   overflow: hidden;
+        color: #8bc1ed;
 }
 
 .Product1:hover {
-    background: #009984;
-      box-shadow: 0px 0px 20px #00d6b9;
+    color: #252525;
+      text-shadow: 0px 0px 10px #8bc1ed;
 }
 .Product2:hover {
-    background: #009984;
-      box-shadow: 0px 0px 20px #00d6b9;
+    color: #252525;
+      text-shadow: 0px 0px 10px #8bc1ed;
     }

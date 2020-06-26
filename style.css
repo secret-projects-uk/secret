@@ -24,6 +24,7 @@
 body {
     font-family: 'Bree Serif', serif;
     font-size: 95%;
+    background: #252525;
 }
 .CodingPic {
     
@@ -36,7 +37,7 @@ body {
     
     top: 24.5%;
     right: 2%;
-    background-color: #f4f4f4;
+    background-color: #8bc1ed;
     position: absolute;
     padding-right: 1%;
     padding-left: 1%;
@@ -45,6 +46,7 @@ body {
     z-index: 1;
     display:inline-block;
     opacity: 80%;
+    color: #252525;
     
 }
 .Title4Box {
