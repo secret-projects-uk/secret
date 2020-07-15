@@ -21,18 +21,18 @@ function expandUk() {
             setTimeout( () => {document.getElementById("UkSocial").style.display= "none";}, 335 );
          } }
            
-function expandTem() {
+function expandBarn() {
     
-	    if (document.getElementById("Tem").style.marginTop < "5%" ) 
+	    if (document.getElementById("Barn").style.marginTop < "5%" ) 
         
-        {   document.getElementById("Tem").style.marginTop = "5%";
-            document.getElementById("TemSocial").className = "SocialFadeIn";
-            document.getElementById("TemSocial").style.display= "inline-block"; }
+        {   document.getElementById("Barn").style.marginTop = "5%";
+            document.getElementById("BarnSocial").className = "SocialFadeIn";
+            document.getElementById("BarnSocial").style.display= "inline-block"; }
         
     
-    else {  document.getElementById("TemSocial").className = "SocialFadeOut";
-            setTimeout(() => {document.getElementById("Tem").style.marginTop = "0%";}, 335 );
-            setTimeout( () => {document.getElementById("TemSocial").style.display= "none";}, 335 );
+    else {  document.getElementById("BarnSocial").className = "SocialFadeOut";
+            setTimeout(() => {document.getElementById("Barn").style.marginTop = "0%";}, 335 );
+            setTimeout( () => {document.getElementById("BarnSocial").style.display= "none";}, 335 );
          } }
 
 function expandBeren() {
@@ -83,29 +83,29 @@ function expandEnder() {
     
         <div id="ASocials" class="NoScroll" >
             
-            <a href="index.html#Header" ><img src="assets/bplogo.png" class="ALogo Center" ></a>
-            <h1 class="AName Center" >BP Team</h1>
+            <a href="index.html#Header" ><img src="assets/s5logo.png" class="ALogo Center" ></a>
+            <h1 class="AName Center" >Section Five</h1>
             <a href="mailto:bp@bpteam.xyz" ><h3 class="AEmail Center" >bp@bpteam.xyz</h3></a>
             
             <div class="flex-containers">
             
-                <div id="SFirst">
+                <div class="ASocial" id="SFirst">
                  <a class="Center" href="https://twitch.tv/bp_team_" ><img class="SLogo" src="assets/circled_Twitchdark.png"> <h4 >Twitch</h4></a>
                 </div>
                 
-                <div id="SMore">
+                <div class="ASocial" id="SMore">
                  <a class="Center" href="https://discord.gg/Zawfp6K" ><img class="SLogo" src="assets/circled_Discorddark.png"> <h4 >Discord</h4></a>
                 </div>
                 
-                <div id="SMore">
+                <div class="ASocial" id="SMore">
                  <a class="Center" href="https://www.youtube.com/channel/UC4MeGgjN60Spcmz7G7Gf9pQ" ><img class="SLogo" src="assets/iconfinder_Circled_Youtube_svg_5279120dark.png"> <h4 >Youtube</h4></a>
                 </div>
                 
-                <div id="SMore">
+                <div class="ASocial" id="SMore">
                  <a class="Center" href="https://www.twitter.com/BPTeam__" ><img class="SLogo" src="assets/iconfinder_Circled_Twitter_svg_5279123dark.png"> <h4 >Twitter</h4></a>
                 </div>
                 
-                <div id="SMore">
+                <div class="ASocial" id="SMore">
                  <a class="Center" href="https://github.com/bpteammc" ><img class="SLogo" src="assets/circled_Githubdark.png"> <h4 >Github</h4></a>
                 </div>
                 
@@ -136,11 +136,11 @@ function expandEnder() {
             
             <div class="AMember" >
                 <div class="flex-container" >
-                <div><img class="APic" src="assets/tem.png"></div>
-                <div><h3>TardisTem</h3>
-                    <h4>Modeler</h4></div></div>
-                <div id="TemSocial" ><h4>Socials:</h4></div>
-                <div id="Tem" ><h5 onclick="expandTem();" class="Expand" >Expand</h5></div>
+                <div><img class="APic" src="assets/barn.png"></div>
+                <div><h3>Barnowl</h3>
+                    <h4>Modeler, Mod Developer</h4></div></div>
+                <div id="BarnSocial" ><h4>Socials:</h4></div>
+                <div id="Barn" ><h5 onclick="expandBarn();" class="Expand" >Expand</h5></div>
                 
             </div>
             

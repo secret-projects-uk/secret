@@ -25,7 +25,7 @@
 
 #TopText:hover {
     color: #252525; /* Colour */
-    transition: 0.1s;
+    transition: 0.25s;
     text-shadow: 0px 0px 10px #8bc1ed;
 }
 
@@ -90,8 +90,10 @@ text-align: center;
 .Product1:hover {
     color: #252525;
       text-shadow: 0px 0px 10px #8bc1ed;
+    transition: 0.25s;
 }
 .Product2:hover {
     color: #252525;
+        transition: 0.25s;
       text-shadow: 0px 0px 10px #8bc1ed;
     }

@@ -69,35 +69,39 @@ body {
     margin-left: -1%;
     height: 104%;
     width: 23%;
-    background: #008a77;
-    border-right: 5px solid #00d6b9;
+    background: #003a7d;
+    border-right: 5px solid #8932FF;
     position: fixed;
 }
-#ASocials a {
-        text-decoration: none;
-    color: black;
-}
-#ASocials a:hover {
+.ASocial a {
+    color: #8bc1ed;
     text-decoration: none;
-    color: white;
+}
+.ASocial a:hover {
+    text-decoration: none;
+    color: #252525;
+    transition: 0.25s;
+      text-shadow: 0px 0px 10px #8bc1ed;
 }
 .ALogo {
     
     position: relative;
-    top: 7%;
-    width: 42%;
+    top: 4%;
+    width: 45%;
 }
 .AName {
     position:relative;
     top: 10%;
     font-size-adjust: auto;
     text-align: center;
+    color: #8bc1ed;
 }
 .AEmail {
     position:relative;
     top: 11%;
     font-size-adjust: auto;
     text-align: center;
+    color: #8bc1ed;
 }
 /* Tests */
 .flex-container {
@@ -115,6 +119,7 @@ body {
     font-size-adjust: auto;
     text-align: center;
     align-content: center;
+    color: #8bc1ed;
 }
 .Center {
     left: 50%;
@@ -147,7 +152,7 @@ body {
 }
 #AMembers a {
     text-decoration: none;
-    color: black;
+    color: #8bc1ed;
 }
 .APic {
     width: 45%;
@@ -160,21 +165,26 @@ body {
 .Expand {
     margin-left: 85%;
     margin-top: -5.65%;
+    color: #8bc1ed;
 }
 .Expand:hover {
-    color: white;
+    text-decoration: none;
+    color: #252525;
     transition: 0.25s;
+      text-shadow: 0px 0px 10px #8bc1ed;
 }
 .SText:hover {
-    color: white;
+    text-decoration: none;
+    color: #252525;
     transition: 0.25s;
+      text-shadow: 0px 0px 10px #8bc1ed;
 }
 #Uk {
     transition: 0.65s;
     padding-bottom: 0%;
     margin-top: 0%;
 }
-#Tem {
+#Barn {
     transition: 0.65s;
     padding-bottom: 0%;
     margin-top: 0%;
@@ -195,9 +205,10 @@ body {
     margin-top: 0%;
 }
 .AMember {
-    background: #00a68f;
+    background: #003a7d;
+    color: #8bc1ed;
     width: 175%;
-   box-shadow: 12px 12px 5px #00d6b9;
+   box-shadow: 12px 12px 5px #8932FF;
     margin-bottom: 5%;
 }
 #UkSocial {
@@ -207,7 +218,7 @@ body {
     display: none;
     
 }
-#TemSocial {
+#BarnSocial {
     
     margin-left: 15.5%;
     margin-top: -2%;

@@ -10,7 +10,7 @@ footer {
 
 #Footer {
     position:absolute;
-    background: #007767; /* Colour */
+    background: #003a7d; /* Colour */
     overflow: hidden;
     width: 100.3%;
     height: 27%;
@@ -75,7 +75,7 @@ footer {
     
     position: absolute;
     font-size: 130%;
-    color:white;
+    color: #8bc1ed;
     bottom: 15%;
    left:50%;
     transform: translateX(-50%);
